@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.profile a {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.profile a:hover {
+  color: rgb(85, 92, 156);
+  font-weight: 400;
+}
+
+.profile img,
+#userFollowers img {
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  padding: 5px;
+  margin-right: 30px;
+  border: 1px solid rgb(189, 189, 189);
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: left;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 5px;
+}
+
+.profileInfo button,
+#userRepos li,
+#userFollowers li {
+  list-style: none;
+  padding: 15px;
+  border: none;
+  border-top: 1px solid rgb(189, 189, 189);
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: rgb(34, 34, 34);
+}
+
+#repoTitle,
+#followerTitle {
+  display: none;
+}
+
+#userRepos,
+#userFollowers {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 500px;
+  height: 250px;
+  overflow-y: scroll;
+  text-align: left;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 5px;
+}
+
+#userRepos li a,
+#userFollowers li a {
+  color: rgb(34, 34, 34);
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#userFollowers li a {
+  font-size: 1.2rem;
+}
+
+#userRepos li:first-of-type,
+#userFollowers li:first-of-type {
+  border-top: none;
+}
+
+#userRepos li a:hover,
+#userFollowers li a:hover,
+.profileInfo button:hover {
+  color: rgb(85, 92, 156);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#userFollowers img {
+  width: 50px;
+}
