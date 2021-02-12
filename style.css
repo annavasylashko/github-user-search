@@ -5,6 +5,9 @@
   padding-top: 15px;
 }
 
+.form-group {
+  width: 500px;
+}
 .profile {
   display: flex;
   flex-direction: row;
@@ -102,4 +105,21 @@
 
 #userFollowers img {
   width: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-group {
+    width: 100vw;
+  }
+
+  .profileInfo,
+  #userRepos,
+  #userFollowers {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .profile img {
+    margin-bottom: 20px;
+  }
 }
