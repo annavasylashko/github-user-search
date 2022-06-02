@@ -1,4 +1,4 @@
-# [Github User Search](https://annavasylashko.github.io/pm-js-hw10/)
+# [Github User Search](https://annavasylashko.github.io/github-user-search/)
 
 Условием данного задания было:
 * Сделать строку поиска, в которую нужно будет вводить ник пользователя github.
