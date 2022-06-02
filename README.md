@@ -1,5 +1,4 @@
-# PM Homework 10
-## [Github User Search](https://annavasylashko.github.io/pm-js-hw10/)
+# [Github User Search](https://annavasylashko.github.io/pm-js-hw10/)
 
 Условием данного задания было:
 * Сделать строку поиска, в которую нужно будет вводить ник пользователя github.
